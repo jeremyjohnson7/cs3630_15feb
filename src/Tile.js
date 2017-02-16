@@ -4,7 +4,7 @@ import './Tile.css';
 export default (props) => (
     <div className="tile">
         <figure>
-            <img src={props.coverImage} />
+            <img src={props.coverImage} alt="Book cover" />
         </figure>
         <section>
             <h2>{props.bookTitle}</h2>
