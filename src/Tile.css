@@ -1,0 +1,14 @@
+.tile {
+    background: red;
+    width: 100%;
+    display: flex;
+    border: 1px solid red;
+}
+
+.tile figure {
+    flex:1;
+}
+
+.tile section {
+    flex: 3;
+}
