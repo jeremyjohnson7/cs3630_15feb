@@ -1,13 +1,13 @@
 import React from 'react';
 import './Tile.css';
 
-export default (props) => (
+export default ({thumbnail, title = "No title"}) => (
     <div className="tile">
         <figure>
-            <img src={props.coverImage} alt="Book cover" />
+            <img src={thumbnail} alt="Book cover" />
         </figure>
         <section>
-            <h2>{props.bookTitle}</h2>
+            <h2>{title}</h2>
         </section>
     </div>
 );
